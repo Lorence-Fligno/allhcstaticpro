@@ -156,5 +156,4 @@ if(smText){smText.classList.add('animate');}});document.addEventListener('DOMCon
 if(boardOfDirectorsTab){boardOfDirectorsTab.addEventListener('click',function(){if(elementToHide){elementToHide.style.display='block';}});}});function openTab(evt,tabName){var i,tabcontent,tabs;tabcontent=document.getElementsByClassName("tab-content");for(i=0;i<tabcontent.length;i++){tabcontent[i].style.display="none";}
 tabs=document.getElementsByClassName("tab");for(i=0;i<tabs.length;i++){tabs[i].classList.remove("active");}
 document.getElementById(tabName).style.display="block";evt.currentTarget.classList.add("active");}
-document.getElementById('open-tab2').addEventListener('click',function(event){event.preventDefault();document.getElementById('tab2').checked=true;document.getElementById('content2').scrollIntoView({behavior:'smooth'});});;function openPopup(src){document.getElementById('popup').style.display='block';document.getElementById('popup-img').src=src;}
-function closePopup(){document.getElementById('popup').style.display='none';}
+document.getElementById('open-tab2').addEventListener('click',function(event){event.preventDefault();document.getElementById('tab2').checked=true;document.getElementById('content2').scrollIntoView({behavior:'smooth'});});
